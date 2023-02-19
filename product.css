@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  body {
+    background: url(https://3.bp.blogspot.com/-YBeTk9NQrR4/WrtiysOeVqI/AAAAAAAAEBs/mvMRVVTMWHM5FY1Y2ex4wSq7m2dD7ZYEQCLcBGAs/s1600/photo-1501449464997-86f52f4f9f66.jpg);
+    color: #7f8db0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .wrapper {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .box {
+    display: flex;
+    width: 950px;
+    margin: 140px auto;
+  }
+  
+  .single {
+    background: #eae1e1;
+    width: 300px;
+    padding: 25px;
+    margin-right: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 35) 0 8px 12px;
+    position: relative;
+    border-radius: 15px;
+  }
+  .img {
+    height: 200px;
+  }
+  
+  .img img {
+    height: 100%;
+  }
+  
+  .img img:hover {
+    border-radius: 15px;
+  }
+  
+  .single a {
+    background: salmon;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 30px;
+  }
+  
+  .single a:hover {
+    color: salmon;
+    font-style: italic;
+    background: none;
+  }
+  
+  .single h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: trattatello, fantasy;
+  }
+  
+  .single .harga {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  .judul h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    margin-top: 20px;
+    font-weight: bolder;
+  }

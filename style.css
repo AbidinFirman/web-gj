@@ -1,0 +1,113 @@
+body {
+  /* background-image: linear-gradient(#00467f, #a5cc82); */
+  background-image: url(https://images.unsplash.com/photo-1573523765924-e6c704ce8048?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+  /* background-repeat: no-repeat; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #eae1e1;
+  border-radius: 20px;
+}
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Trattatello, fantasy;
+}
+
+.header ul {
+  padding: 0px;
+}
+
+.header ul li {
+  padding: 3px;
+  margin-top: 10px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.header a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.header a:hover {
+  font-style: italic;
+  color: blue;
+  /* background-color: lightskyblue;
+    border-radius: 5px; */
+}
+
+.hero {
+  height: 250px;
+  background-image: url(https://images.unsplash.com/photo-1603486002664-a7319421e133?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1842&q=80);
+  background-size: cover;
+  background-position: 0 -150px;
+  border-top: 10px solid lightskyblue;
+  border-bottom: 10px solid lightskyblue;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 29px;
+  font-weight: bolder;
+  font-family: Trattatello, fantasy;
+}
+
+.content .penulis {
+  margin-top: -5px;
+  font-size: 12px;
+}
+
+.penulis a {
+  text-decoration: none;
+  color: salmon;
+}
+
+.penulis a:hover {
+  font-style: italic;
+  color: blue;
+}
+.content p {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.yoi a {
+  text-decoration: none;
+  color: salmon;
+}
+
+.yoi a:hover {
+    font-style: italic;
+    color: blue;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 0px;
+    width: 30px 0px;
+}
+
+.enjoy {
+    font-family: URW Chancery L, cursive;
+    font-size: 12px;
+    text-align: right;
+}
